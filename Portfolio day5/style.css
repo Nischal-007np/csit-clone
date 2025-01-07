@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    position: fixed;
+}
+.nav
+{
+    display: flex;
+    gap: 10px;
+    padding:10px 2rem 10px 2rem;
+    font-size: large;
+    background: transparent;
+    
+    
+    /* background-color: brown; */
+}
+
+.logo{
+    
+    width: 40%;
+}
+.nav-links {
+    display: flex;
+    width: 80%;
+
+    justify-content: flex-end;
+}
+.hamburger{
+   
+    display: none;
+    justify-content: column;
+    gap: 9px;
+    padding-inline: 10px;
+    flex-direction: column;
+    justify-content: center;
+ border-radius: 5px ;
+}
+.bar{
+    border-radius: 10px;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(40, 17, 17);
+}
+
+img{
+    width: 55px;
+}
+.nav-lists
+{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+.nav-lists >li {
+    list-style-type: none;
+    gap: 100px;
+
+
+}
+.btn
+{
+ border-radius:5px;
+ background-color: rgb(185, 185, 110);
+ width: 6rem;
+ height: 30px;
+ border: none;
+
+}
+@media(width <600px){
+    .nav-lists {
+        display: none;
+    }
+   .nav-lists.active{
+    display: flex;
+    flex-direction: column;
+       position: absolute;
+         top: 0px;
+         right: 0px;
+            
+            width: 100%;
+            padding: 10px;
+           
+
+   }
+   
+
+}
+@media(width <600px){
+    .hamburger{
+        
+
+        display: flex;
+        position: relative;
+        z-index: 10;
+    }
+}
+h1{
+    text-align: center;
+    
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: 4rem;
+    object-fit: contain;
+    margin: auto;
+    
+}
+.left {
+   
+    width: 500px;
+    height: 25rem;
+    margin-left: 3rem;
+
+}
+.right
+{ 
+margin-left: 4rem;
+width: 500px;
+}
+
+p{ 
+font-size: 21px;
+
+padding: 5px;}
+.ni{
+    color: red;
+}
+h2{ 
+color: blueviolet;
+text-align: center;
+
+}
+
+.nischal{
+    width: 28rem;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.main-heading{
+    color: black;
+
+} 
+.contact-me {
+    border-radius:5px;
+ background-color: rgb(181, 181, 117);
+ width: 7rem;
+ height: 30px;
+ border: none;
+ color: aliceblue;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.naam
+{
+color: red;
+}
+.programs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27rem;
+    
+    
+}
+.PARA {
+    text-align: center;
+}
+
+.container
+{
+display: flex;
+flex-wrap: wrap;
+gap: 27rem;
+margin-bottom: 2rem;
+margin-left: 4rem;
+
+}
+
+
+.images
+{
+    width: 80px;
+}
+.content
+{
+    
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+
+}
+
+.pro
+{
+width: 30%;
+
+margin-left: 3rem;
+}
+.todo{
+    width: 10rem;
+}
+.w{
+    width: 10rem ;
+
+}
+.dc{
+    width: 10rem;
+    height: 104px;
+}
+.pw{
+    width: 10rem;
+}
+h4{
+    text-align: start;
+}
+.talk
+{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(11, 33, 33);
+    color: white;
+    border:none;
+    border-radius: 12px;
+
+}
+.HIRE{
+    margin-left: 3rem;
+    
+    width: 25% ;
+}
